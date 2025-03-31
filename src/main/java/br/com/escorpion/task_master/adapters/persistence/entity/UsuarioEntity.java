@@ -1,12 +1,10 @@
 package br.com.escorpion.task_master.adapters.persistence.entity;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @RequiredArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name = "usuarios")
 @Getter
